@@ -1,0 +1,10 @@
+- hosts: all
+  gather_facts: false
+
+
+  roles:
+   
+   - name: install yum packages
+     role: install-packages
+     rpm_list:
+        - {{ package }}

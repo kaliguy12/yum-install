@@ -1,0 +1,3 @@
+- src: https://github.com/kaliguy12/install-packages.git
+  version: dev
+  scm: git
